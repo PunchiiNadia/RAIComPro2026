@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int val_1,val_2,val_3,sum;
+    int val_1,val_2,val_3,min,max,sum;
     float avg;
 
     printf("Enter integer #1: ");
@@ -12,15 +12,13 @@ int main() {
     printf("Enter integer #3: ");
     scanf("%d", &val_3);
 
-    int max = val_1;
+    max = val_1;
     if (val_2 > max) max = val_2;
     if (val_3 > max) max = val_3;
 
-    int min = val_1;
+    min = val_1;
     if (val_2 < min) min = val_2;
     if (val_3 < min) min = val_3;
-
-
 
     sum = val_1+val_2+val_3;
     avg = sum/3.0;
