@@ -1,17 +1,21 @@
 #include <stdio.h>
 int main() {
-    int a=10,b=5;
-    float F = 5.4556;
-    char grade = 'A';
-    char subject[12] = "Programming";
+    char name[99], surname[99], student_id[99];
+    int lab, mid, final, total;
 
-    printf("int = %d, %d\n", a, b);
-    printf("float = %0.2f\n", F);
-    printf("char = %c\n", grade);
-    printf("string = %s\n", subject);
+    printf("Enter your Name Surname : ");
+    scanf(" %s %s", name, surname);
+    printf("Enter your Student ID : ");
+    scanf("%s", student_id);
+    printf("Enter your score\n");
+    printf("\tLaboratory (15%) %s", "= ");
+    scanf("%d", &lab);
+    printf("\tMidterm (35%) %5s", "= ");
+    scanf("%d", &mid);
+    printf("\tfinal (50%) %7s", "= ");
+    scanf("%d", &final);
 
-    printf("%c\n", subject[4]);
-    printf("ASCII %c\n", 65);
-
+    total = lab+mid+final;
+    printf("Total (100%) %13s %d", "=", total);
     return 0;
 }
