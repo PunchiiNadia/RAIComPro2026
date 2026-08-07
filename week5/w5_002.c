@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int num =1, sum_val=0;
+    int num=1, sum_val=0;
     do {
         sum_val = sum_val + num;
         num++;
