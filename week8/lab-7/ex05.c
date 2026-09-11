@@ -6,9 +6,11 @@ int main() {
     int sum = 0;
 
     for(int i=0; i<size; i++){
-        sum += *(p+i);
+        if (*(p+i)%2==0) {
+            sum += *(p+i);
+        }
     }
 
-    printf("The sum of array is: %d\n", sum);
+    printf("The sum of even numbers is: %d\n", sum);
     return 0;
 }
