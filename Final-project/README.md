@@ -8,9 +8,9 @@ Autonomous and manual competition robots developed to apply programming concepts
 
 | Name | Section |
 | --- | --- |
-| Naphat Kaewpradit | SEC 1 |
-| Punchita Teerachawansak | SEC 2 |
-| Ranravee Thithinan | SEC 3 |
+| Naphat Kaewpradit | Section 1 |
+| Punchita Teerachawansak | Section 2 |
+| Ranravee Thithinan | Section 3 |
 
 ## Autonomous Robot
 
