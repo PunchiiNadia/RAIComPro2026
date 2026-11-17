@@ -1,6 +1,8 @@
 # Group 11: Girly Gang
+## Computer Programming — Final Project
 
-Autonomous and manual competition robot project.
+Autonomous and manual competition robots developed to apply programming concepts to robot navigation, movement control, and object handling.
+
 
 ## Team Members
 
@@ -31,9 +33,6 @@ Autonomous and manual competition robot project.
 - A stable chassis supports controlled driving and launching.
 - Gripping and launching mechanisms support object handling and scoring.
 - Modular construction simplifies adjustment and maintenance.
-- The revised design removes the motorized intake and uses only **one TT gear motor**.
-
-**Programming:** All control logic must be written in mBlock Python; block-based programming is forbidden.
 
 ## Repository Files
 
@@ -41,9 +40,3 @@ Autonomous and manual competition robot project.
 | --- | --- |
 | `competition/auto/auto.ino` | Autonomous Arduino program |
 | `competition/manual/manual.mblock` | Required mBlock project for submission |
-
-## Documentation and Submission
-
-- Store both programs in the team leader’s **public GitHub repository** for TA review.
-- Include a **flowchart and detailed code explanation** in the report.
-- Calibrate sensor thresholds, PID gains, movement settings, and mechanism positions on the assembled robots before operation.
